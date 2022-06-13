@@ -1,0 +1,37 @@
+
+
+#container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+    gap: 30px;
+    row-gap: 20px;
+    
+}
+
+#container > #card {
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} 
+
+img {
+    width: 100%;
+}
+#container > #card p {
+    padding-left: 10px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
